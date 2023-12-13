@@ -2,7 +2,7 @@
 Repository of codes and methods for the automatic coding of pathology reports. 
 
 ## Data
-283.501 pathology reports were extracted from the laboratory information system along with their corresponding SNOMED-3 codes, during a 8-year period (from January 2014 to December 2022) and used as training and validation set for a ML model (SVM) and a RNN (LSTM). Text and codes were then stored in a .csv file. The 50 most frequent diagnosis (D) or morphology (M) codes were retained with relative diagnosis text and appropriately translated to SNOMED-CT codes.  
+283.501 pathology reports, extracted from the laboratory information system along with their corresponding SNOMED-3 codes, during a 8-year period (from January 2014 to December 2022) were used as training and validation set for a ML model (SVM) and a RNN (LSTM). Text and codes were then stored in a .csv file. The 50 most frequent diagnosis (D) or morphology (M) codes are retained with relative diagnosis text and appropriately translated to SNOMED-CT codes.  
         
         //Most frequent 50 codes
         code_df=df.groupby("Labels").count().reset_index()
