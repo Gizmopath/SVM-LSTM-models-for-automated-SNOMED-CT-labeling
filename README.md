@@ -183,7 +183,7 @@ Repository of codes and methods for the automatic coding of pathology reports.
         model.compile(loss='categorical_crossentropy', optimizer='Adam', metrics=['accuracy'])
         
         print(model.summary())
-    ![Cattura](https://github.com/Gizmopath/SVM-LSTM-models-for-automated-SNOMED-CT-labeling/assets/119873860/89e796ee-47a3-4154-9578-c5f302a40f80)
+![Cattura](https://github.com/Gizmopath/SVM-LSTM-models-for-automated-SNOMED-CT-labeling/assets/119873860/4338745c-bb42-4ad7-bf87-a005834ef84f)
 
 ## Hardware
 Python 3.8.5
